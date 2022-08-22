@@ -15,8 +15,7 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    font-weight: 400;
+    letter-spacing: 0.03em;    
     font-size: 14px;
     line-height: 1.71;
 }
@@ -103,6 +102,7 @@ color: var(--accent-color);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -154,9 +154,67 @@ address {
     /* потом уберу */
 }
 
-footer .link {
+.location:hover,
+.location:focus {
+    color: var(--accent-color);
+}
+
+.footer .link {
     color: rgba(255, 255, 255, 0.6);
 
     background-color: #2F303A;
         /* потом уберу */
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio page */
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+}
+
+/* Filter */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;  
+    text-align: center;
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+/* Portfolio */
+
+.portfolio .link:hover,
+.portfolio .link:focus {
+    color: var(--accent-color);
+}
+
+.portfolio .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;   
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio .text {
+    font-size: 16px;
+    line-height: 1.88;    
 }
