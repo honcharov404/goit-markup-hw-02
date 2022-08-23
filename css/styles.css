@@ -57,6 +57,10 @@ a {
     color: var(--title-text-color);
 }
 
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--accent-color);
@@ -143,15 +147,20 @@ color: var(--title-text-color);
 
 /* Footer */
 
+.footer {
+    background-color: #2F303A;
+}
+
+.footer > .logo {
+    color: var(--primary-white-color);
+}
+
 address {
     font-style: normal;
 }
 
 .location {
     color: var(--primary-white-color);
-
-    background-color: #2F303A;
-    /* потом уберу */
 }
 
 .location:hover,
@@ -161,9 +170,6 @@ address {
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
-
-    background-color: #2F303A;
-        /* потом уберу */
 }
 
 .footer .link:hover,
@@ -201,11 +207,6 @@ address {
 
 /* Portfolio */
 
-.portfolio .link:hover,
-.portfolio .link:focus {
-    color: var(--accent-color);
-}
-
 .portfolio .title {
     font-weight: 700;
     font-size: 18px;
@@ -217,4 +218,5 @@ address {
 .portfolio .text {
     font-size: 16px;
     line-height: 1.88;    
+    color: var(--primary-text-color);
 }
